@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+h1{
+    font-size: medium;
+    text-align: center;
+}
+.container{
+    border: 2px solid rgb(22, 15, 15);
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    position: absolute;
+    left: 30%;
+    margin-top: 40px;
+}
+
+/* #imagebox{
+    overflow: hidden;
+    max-width: 0;
+    max-height: 0;
+    /* transition: max-height 1s; */
+/* } */ 
+#image{
+    background-color: white;
+    width: 197px;
+    height: 190px;
+    margin-top: 21px;
+
+}
+/* .show-img{
+    max-width: 300px;
+    max-height: 300px;
+    
+    
+} */
+#inputbox{
+    width: 280px;
+    height: 35px;
+    border-radius: 5px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    width: 280px;
+    height: 44px;
+    margin-top: 9px;
+    margin-bottom: 28px;
+}
+.error{
+ animation: shake 0.1s linear 10;
+}
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-28px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
